@@ -61,8 +61,11 @@ function App() {
             </ProtectedRoute>
           }
         />
+        <Route path="/admin-dashboard" element={<Navigate to="/admin" replace />} />
         <Route path="/timetable" element={<TimetablePage />} />
+        <Route path="/timetable-viewer" element={<Navigate to="/timetable" replace />} />
         <Route path="/classrooms" element={<ClassroomPage />} />
+        <Route path="/classroom-allocation" element={<Navigate to="/classrooms" replace />} />
         <Route path="/labs" element={<LabSchedulingPage />} />
         <Route
           path="/faculty-management"
