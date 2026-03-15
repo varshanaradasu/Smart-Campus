@@ -2,6 +2,7 @@ import { createContext, useContext, useEffect, useMemo, useState } from 'react';
 import { getProfile, loginUser } from '../services/authService';
 
 const AuthContext = createContext(null);
+const getStoredToken = () => localStorage.getItem('sco_token') || localStorage.getItem('token') || '';
 
 export const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
@@ -9,7 +10,7 @@ export const AuthProvider = ({ children }) => {
 
     useEffect(() => {
         const bootstrap = async () => {
-            const token = localStorage.getItem('sco_token');
+            const token = getStoredToken();
             if (!token) {
                 setLoading(false);
                 return;
@@ -32,12 +33,14 @@ export const AuthProvider = ({ children }) => {
     const login = async (payload) => {
         const response = await loginUser(payload);
         localStorage.setItem('sco_token', response.token);
+        localStorage.setItem('token', response.token);
         setUser(response.user);
         return response;
     };
 
     const logout = () => {
         localStorage.removeItem('sco_token');
+        localStorage.removeItem('token');
         setUser(null);
     };
 
