@@ -7,6 +7,14 @@ import { School } from 'lucide-react';
 import { createClassroom, fetchClassrooms } from '../services/operationsService';
 import { useAuth } from '../context/AuthContext';
 
+const normalizeRoomNumber = (value) => {
+    const compact = String(value || '').trim().toUpperCase().replace(/\s+/g, '');
+    if (!compact) return '';
+
+    const withoutPrefix = compact.startsWith('N-') ? compact.slice(2) : compact.startsWith('N') ? compact.slice(1) : compact;
+    return `N-${withoutPrefix}`;
+};
+
 const ClassroomPage = () => {
     const [loading, setLoading] = useState(true);
     const [openModal, setOpenModal] = useState(false);
@@ -31,11 +39,7 @@ const ClassroomPage = () => {
     const submitClassroom = async (e) => {
         e.preventDefault();
         await createClassroom({
-            roomNumber: form.roomNumber,
-            name: form.roomNumber,
-            building: form.building,
-            capacity: Number(form.capacity),
-            type: form.type,
+            roomNumber: normalizeRoomNumber(form.roomNumber),
         });
         setOpenModal(false);
         setForm({ roomNumber: '', building: '', capacity: 40, type: 'classroom' });

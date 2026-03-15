@@ -34,8 +34,6 @@ const ProtectedRoute = ({ children, roles = [] }) => {
 };
 
 function App() {
-  const { user, loading } = useAuth();
-
   return (
     <Routes>
       <Route path="/login" element={<LoginPage />} />
@@ -45,11 +43,7 @@ function App() {
 
       <Route
         path="/"
-        element={
-          loading ? null : (
-            <Navigate to={user?.role === 'admin' ? '/admin' : user ? '/timetable' : '/login'} replace />
-          )
-        }
+        element={<Navigate to="/login" replace />}
       />
 
       <Route
