@@ -1,47 +1,21 @@
-const nodemailer = require('nodemailer');
+const { Resend } = require('resend');
 const twilio = require('twilio');
 
-let cachedTransporter = null;
-let cachedFallbackTransporter = null;
+let cachedResendClient = null;
 let cachedTwilioClient = null;
 
-const createSmtpTransporter = ({ port, secure }) => {
-    const user = process.env.EMAIL_USER;
-    const pass = process.env.EMAIL_PASS;
+const getResendClient = () => {
+    const apiKey = process.env.RESEND_API_KEY;
 
-    return nodemailer.createTransport({
-        host: 'smtp.gmail.com',
-        port,
-        secure,
-        auth: { user, pass },
-        family: 4,
-        connectionTimeout: 30000,
-        greetingTimeout: 30000,
-        socketTimeout: 45000,
-    });
-};
-
-const getMailer = () => {
-    const user = process.env.EMAIL_USER;
-    const pass = process.env.EMAIL_PASS;
-
-    if (!user || !pass) {
-        throw new Error('Email OTP is not configured. Set EMAIL_USER and EMAIL_PASS.');
+    if (!apiKey) {
+        throw new Error('Email OTP is not configured. Set RESEND_API_KEY.');
     }
 
-    if (!cachedTransporter) {
-        cachedTransporter = createSmtpTransporter({ port: 587, secure: false });
+    if (!cachedResendClient) {
+        cachedResendClient = new Resend(apiKey);
     }
 
-    return cachedTransporter;
-};
-
-const getFallbackMailer = () => {
-    if (!cachedFallbackTransporter) {
-        cachedFallbackTransporter = createSmtpTransporter({ port: 465, secure: true });
-    }
-
-    return cachedFallbackTransporter;
+    return cachedResendClient;
 };
 
 const getTwilioClient = () => {
@@ -60,31 +34,22 @@ const getTwilioClient = () => {
 };
 
 const sendOtpEmail = async ({ to, otp }) => {
-    const transporter = getMailer();
-    const from = process.env.EMAIL_USER;
-
-    const message = {
-        from,
-        to,
-        subject: 'Smart Campus - Password Reset OTP',
-        text: `Your OTP for password reset is ${otp}. It is valid for 5 minutes.`,
-        html: `<p>Your OTP for password reset is <strong>${otp}</strong>.</p><p>This OTP is valid for 5 minutes.</p>`,
-    };
+    const resend = getResendClient();
+    const from = process.env.RESEND_FROM || 'Smart Campus <onboarding@resend.dev>';
 
     try {
-        await transporter.sendMail(message);
-    } catch (error) {
-        const isTimeout =
-            error?.code === 'ETIMEDOUT' ||
-            error?.code === 'ESOCKET' ||
-            /timeout/i.test(String(error?.message || ''));
+        const result = await resend.emails.send({
+            from,
+            to,
+            subject: 'Password Reset OTP',
+            html: `<h2>Your OTP is: ${otp}</h2>`,
+        });
 
-        if (!isTimeout) {
-            throw error;
+        if (result?.error) {
+            throw new Error(result.error.message || 'Failed to send email via Resend.');
         }
-
-        const fallbackTransporter = getFallbackMailer();
-        await fallbackTransporter.sendMail(message);
+    } catch (error) {
+        throw new Error(error?.message || 'Failed to send email via Resend.');
     }
 };
 
