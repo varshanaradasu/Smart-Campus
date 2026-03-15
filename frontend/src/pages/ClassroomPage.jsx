@@ -20,7 +20,13 @@ const isValidUniversityClassroom = (roomNumber) => {
     if (!match) return false;
 
     const code = Number(match[1]);
-    return (code >= 201 && code <= 219) || (code >= 301 && code <= 319) || (code >= 401 && code <= 419);
+    return (
+        (code >= 201 && code <= 219) ||
+        (code >= 301 && code <= 319) ||
+        (code >= 401 && code <= 419) ||
+        (code >= 501 && code <= 519) ||
+        (code >= 601 && code <= 619)
+    );
 };
 
 const ClassroomPage = () => {
@@ -51,7 +57,7 @@ const ClassroomPage = () => {
 
         const roomNumber = normalizeRoomNumber(form.roomNumber);
         if (!isValidUniversityClassroom(roomNumber)) {
-            setFormError('Invalid classroom number. Use only N-201 to N-219, N-301 to N-319, or N-401 to N-419.');
+            setFormError('Invalid classroom number. Use N-201 to N-219, N-301 to N-319, N-401 to N-419, N-501 to N-519, or N-601 to N-619.');
             return;
         }
 

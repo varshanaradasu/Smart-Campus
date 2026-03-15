@@ -2,6 +2,8 @@ const UNIVERSITY_CLASSROOM_NUMBERS = [
     ...Array.from({ length: 19 }, (_, index) => `N-2${String(index + 1).padStart(2, '0')}`),
     ...Array.from({ length: 19 }, (_, index) => `N-3${String(index + 1).padStart(2, '0')}`),
     ...Array.from({ length: 19 }, (_, index) => `N-4${String(index + 1).padStart(2, '0')}`),
+    ...Array.from({ length: 19 }, (_, index) => `N-5${String(index + 1).padStart(2, '0')}`),
+    ...Array.from({ length: 19 }, (_, index) => `N-6${String(index + 1).padStart(2, '0')}`),
 ];
 
 const UNIVERSITY_CLASSROOM_SET = new Set(UNIVERSITY_CLASSROOM_NUMBERS);
@@ -13,6 +15,8 @@ const getFloorFromRoomNumber = (roomNumber) => {
     if (floorDigit === 2) return 'Second Floor';
     if (floorDigit === 3) return 'Third Floor';
     if (floorDigit === 4) return 'Fourth Floor';
+    if (floorDigit === 5) return 'Fifth Floor';
+    if (floorDigit === 6) return 'Sixth Floor';
     return null;
 };
 

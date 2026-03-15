@@ -70,7 +70,7 @@ const createClassroom = async (req, res) => {
     const roomNumber = String(req.body.roomNumber || '').trim().toUpperCase();
     if (!isValidUniversityClassroom(roomNumber)) {
         res.status(400);
-        throw new Error('Invalid classroom number. Allowed range is N-201 to N-219, N-301 to N-319, N-401 to N-419.');
+        throw new Error('Invalid classroom number. Allowed range is N-201 to N-219, N-301 to N-319, N-401 to N-419, N-501 to N-519, N-601 to N-619.');
     }
 
     const classroom = await Classroom.create({
@@ -90,7 +90,7 @@ const updateClassroom = async (req, res) => {
         const roomNumber = String(req.body.roomNumber || '').trim().toUpperCase();
         if (!isValidUniversityClassroom(roomNumber)) {
             res.status(400);
-            throw new Error('Invalid classroom number. Allowed range is N-201 to N-219, N-301 to N-319, N-401 to N-419.');
+            throw new Error('Invalid classroom number. Allowed range is N-201 to N-219, N-301 to N-319, N-401 to N-419, N-501 to N-519, N-601 to N-619.');
         }
 
         req.body.roomNumber = roomNumber;
