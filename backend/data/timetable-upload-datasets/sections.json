@@ -1,0 +1,1351 @@
+[
+  {
+    "sectionName": "CSE_3A",
+    "strength": 58,
+    "subjects": [
+      {
+        "name": "ML",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "SE",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "PDC",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "DL",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CSA",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "IDP",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "QLR",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "OE",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "VERBAL TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "SE-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      }
+    ]
+  },
+  {
+    "sectionName": "CSE_3B",
+    "strength": 59,
+    "subjects": [
+      {
+        "name": "ML",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "SE",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "PDC",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "DL",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CSA",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "IDP",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "QLR",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "OE",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "VERBAL TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "SE-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      }
+    ]
+  },
+  {
+    "sectionName": "CSE_3C",
+    "strength": 60,
+    "subjects": [
+      {
+        "name": "ML",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "SE",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "PDC",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "DL",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CSA",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "IDP",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "QLR",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "OE",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "VERBAL TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "SE-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      }
+    ]
+  },
+  {
+    "sectionName": "CSE_3D",
+    "strength": 61,
+    "subjects": [
+      {
+        "name": "ML",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "SE",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "PDC",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "DL",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CSA",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "IDP",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "QLR",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "OE",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "VERBAL TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "SE-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      }
+    ]
+  },
+  {
+    "sectionName": "CSE_3E",
+    "strength": 62,
+    "subjects": [
+      {
+        "name": "ML",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "SE",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "PDC",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "DL",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CSA",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "IDP",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "QLR",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "OE",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "VERBAL TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "SE-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      }
+    ]
+  },
+  {
+    "sectionName": "CSE_3F",
+    "strength": 58,
+    "subjects": [
+      {
+        "name": "ML",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "SE",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "PDC",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "DL",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CSA",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "IDP",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "QLR",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "OE",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "VERBAL TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "SE-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      }
+    ]
+  },
+  {
+    "sectionName": "CSE_3G",
+    "strength": 59,
+    "subjects": [
+      {
+        "name": "ML",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "SE",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "PDC",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "DL",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CSA",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "IDP",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "QLR",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "OE",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "VERBAL TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "SE-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      }
+    ]
+  },
+  {
+    "sectionName": "CSE_3H",
+    "strength": 60,
+    "subjects": [
+      {
+        "name": "ML",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "SE",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "PDC",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "DL",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CSA",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "IDP",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "QLR",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "OE",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "VERBAL TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "SE-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      }
+    ]
+  },
+  {
+    "sectionName": "CSE_3I",
+    "strength": 61,
+    "subjects": [
+      {
+        "name": "ML",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "SE",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "PDC",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "DL",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CSA",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "IDP",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "QLR",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "OE",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "VERBAL TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "SE-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      }
+    ]
+  },
+  {
+    "sectionName": "CSE_3J",
+    "strength": 62,
+    "subjects": [
+      {
+        "name": "ML",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "SE",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "PDC",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "DL",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CSA",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "IDP",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "QLR",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "OE",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "VERBAL TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "SE-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      }
+    ]
+  },
+  {
+    "sectionName": "CSE_3K",
+    "strength": 58,
+    "subjects": [
+      {
+        "name": "ML",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "SE",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "PDC",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "DL",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CSA",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "IDP",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "QLR",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "OE",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "VERBAL TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "SE-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      }
+    ]
+  },
+  {
+    "sectionName": "CSE_3L",
+    "strength": 59,
+    "subjects": [
+      {
+        "name": "ML",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "SE",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "PDC",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "DL",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CSA",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "IDP",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "QLR",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "OE",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "VERBAL TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "SE-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      }
+    ]
+  },
+  {
+    "sectionName": "CSE_3M",
+    "strength": 60,
+    "subjects": [
+      {
+        "name": "ML",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "SE",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "PDC",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "DL",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CSA",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "IDP",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "QLR",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "OE",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "VERBAL TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "SE-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      }
+    ]
+  },
+  {
+    "sectionName": "CSE_3N",
+    "strength": 61,
+    "subjects": [
+      {
+        "name": "ML",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "SE",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "PDC",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "DL",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CSA",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "IDP",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "QLR",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "OE",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "VERBAL TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "SE-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      }
+    ]
+  },
+  {
+    "sectionName": "CSE_3O",
+    "strength": 62,
+    "subjects": [
+      {
+        "name": "ML",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "SE",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "PDC",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "DL",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CSA",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "IDP",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "QLR",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "OE",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "VERBAL TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "SE-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      }
+    ]
+  },
+  {
+    "sectionName": "CSE_3P",
+    "strength": 58,
+    "subjects": [
+      {
+        "name": "ML",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "SE",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "PDC",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "DL",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CSA",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "IDP",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "QLR",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "OE",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "VERBAL TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "SE-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      }
+    ]
+  },
+  {
+    "sectionName": "CSE_3Q",
+    "strength": 59,
+    "subjects": [
+      {
+        "name": "ML",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "SE",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "PDC",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "DL",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CSA",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "IDP",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "QLR",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "OE",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "VERBAL TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "SE-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      }
+    ]
+  },
+  {
+    "sectionName": "CSE_3R",
+    "strength": 60,
+    "subjects": [
+      {
+        "name": "ML",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "SE",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "PDC",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "DL",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CSA",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "IDP",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "QLR",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "OE",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "VERBAL TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "SE-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      }
+    ]
+  },
+  {
+    "sectionName": "CSE_3S",
+    "strength": 61,
+    "subjects": [
+      {
+        "name": "ML",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "SE",
+        "weeklySlots": 3,
+        "durationSlots": 1
+      },
+      {
+        "name": "PDC",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "DL",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CSA",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "IDP",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "QLR",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "OE",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "VERBAL TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "TRAINING",
+        "weeklySlots": 2,
+        "durationSlots": 1
+      },
+      {
+        "name": "CNS-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      },
+      {
+        "name": "SE-L",
+        "weeklySlots": 2,
+        "durationSlots": 2
+      }
+    ]
+  }
+]

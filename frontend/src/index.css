@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', sans-serif;
+  color: #132645;
+  background-color: #f3f7fb;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --surface-border: rgba(255, 255, 255, 0.55);
+  --surface-shadow: 0 18px 40px rgba(15, 23, 42, 0.09);
+  --surface-shadow-hover: 0 24px 46px rgba(15, 23, 42, 0.13);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #f3f7fb;
+  font-weight: 400;
+  line-height: 1.65;
+  letter-spacing: 0.005em;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.glass-card {
+  @apply backdrop-blur-xl border shadow-glass;
+  border-color: var(--surface-border);
+  background: linear-gradient(150deg, rgba(255, 255, 255, 0.88), rgba(241, 247, 255, 0.78));
+  box-shadow: var(--surface-shadow);
+  transition: box-shadow 220ms ease, border-color 220ms ease, background 220ms ease;
+}
+
+.glass-card:hover {
+  border-color: rgba(59, 130, 246, 0.18);
+  box-shadow: var(--surface-shadow-hover);
+}
+
+.panel-title {
+  @apply text-xl font-semibold tracking-tight text-slate-800;
+}
+
+.panel-subtitle {
+  @apply mt-1 text-sm leading-relaxed text-slate-500;
+}
+
+.timetable-grid td {
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: #0f172a;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+p,
+span,
+li,
+label,
+input,
+select,
+textarea,
+button,
+td,
+th {
+  font-weight: 400;
+}
+
+input,
+select,
+textarea {
+  line-height: 1.5;
+  transition: border-color 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+}
+
+button {
+  transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease, color 180ms ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: rgba(37, 99, 235, 0.45);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.14);
+}
+
+form {
+  @apply space-y-4;
+}
+
+.content-stack {
+  @apply space-y-5 md:space-y-6;
+}
+
+.skeleton-shimmer {
+  position: relative;
+  overflow: hidden;
+  background: #dce4ef;
+}
+
+.skeleton-shimmer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.7), transparent);
+  animation: shimmer-slide 1.35s infinite;
+}
+
+@keyframes shimmer-slide {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton-shimmer::after {
+    animation: none;
+  }
+}
+
+.ai-powered-chip {
+  border: 1px solid rgba(56, 189, 248, 0.35);
+  background: linear-gradient(120deg, rgba(15, 23, 42, 0.82), rgba(30, 41, 59, 0.78));
+  box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.12), 0 0 22px rgba(56, 189, 248, 0.22);
+}
+
+.ai-powered-text {
+  background: linear-gradient(90deg, #22d3ee 0%, #60a5fa 35%, #a78bfa 65%, #22d3ee 100%);
+  background-size: 220% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: ai-gradient-flow 2.8s linear infinite;
+  text-shadow: 0 0 14px rgba(56, 189, 248, 0.32);
+}
+
+@keyframes ai-gradient-flow {
+  to {
+    background-position: 220% center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ai-powered-text {
+    animation: none;
+  }
+}

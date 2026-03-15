@@ -1,0 +1,287 @@
+[
+  {
+    "roomNumber": "N-201",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-202",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-203",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-204",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-205",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-206",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-207",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-208",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-209",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-210",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-211",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-212",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-213",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-214",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-215",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-216",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-217",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-218",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-219",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-301",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-302",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-303",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-304",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-305",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-306",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-307",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-308",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-309",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-310",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-311",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-312",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-313",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-314",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-315",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-316",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-317",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-318",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-319",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-401",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-402",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-403",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-404",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-405",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-406",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-407",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-408",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-409",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-410",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-411",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-412",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-413",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-414",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-415",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-416",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-417",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-418",
+    "capacity": 60,
+    "status": "Vacant"
+  },
+  {
+    "roomNumber": "N-419",
+    "capacity": 60,
+    "status": "Vacant"
+  }
+]
