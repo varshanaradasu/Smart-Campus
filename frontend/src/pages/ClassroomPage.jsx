@@ -15,11 +15,20 @@ const normalizeRoomNumber = (value) => {
     return `N-${withoutPrefix}`;
 };
 
+const isValidUniversityClassroom = (roomNumber) => {
+    const match = String(roomNumber || '').toUpperCase().match(/^N-(\d{3})$/);
+    if (!match) return false;
+
+    const code = Number(match[1]);
+    return (code >= 201 && code <= 219) || (code >= 301 && code <= 319) || (code >= 401 && code <= 419);
+};
+
 const ClassroomPage = () => {
     const [loading, setLoading] = useState(true);
     const [openModal, setOpenModal] = useState(false);
     const [rows, setRows] = useState([]);
     const [form, setForm] = useState({ roomNumber: '', building: '', capacity: 40, type: 'classroom' });
+    const [formError, setFormError] = useState('');
     const { user } = useAuth();
 
     const load = async () => {
@@ -38,12 +47,22 @@ const ClassroomPage = () => {
 
     const submitClassroom = async (e) => {
         e.preventDefault();
-        await createClassroom({
-            roomNumber: normalizeRoomNumber(form.roomNumber),
-        });
-        setOpenModal(false);
-        setForm({ roomNumber: '', building: '', capacity: 40, type: 'classroom' });
-        await load();
+        setFormError('');
+
+        const roomNumber = normalizeRoomNumber(form.roomNumber);
+        if (!isValidUniversityClassroom(roomNumber)) {
+            setFormError('Invalid classroom number. Use only N-201 to N-219, N-301 to N-319, or N-401 to N-419.');
+            return;
+        }
+
+        try {
+            await createClassroom({ roomNumber });
+            setOpenModal(false);
+            setForm({ roomNumber: '', building: '', capacity: 40, type: 'classroom' });
+            await load();
+        } catch (error) {
+            setFormError(error.response?.data?.message || 'Failed to add classroom.');
+        }
     };
 
     const tableRows = useMemo(
@@ -69,7 +88,13 @@ const ClassroomPage = () => {
                     <p className="text-sm text-slate-500">Real-time classroom occupancy mapped from timetable data.</p>
                 </div>
                 {user?.role === 'admin' ? (
-                    <button className="rounded-xl bg-brand-600 px-4 py-2 text-sm font-semibold text-white" onClick={() => setOpenModal(true)}>
+                    <button
+                        className="rounded-xl bg-brand-600 px-4 py-2 text-sm font-semibold text-white"
+                        onClick={() => {
+                            setFormError('');
+                            setOpenModal(true);
+                        }}
+                    >
                         Add Classroom
                     </button>
                 ) : null}
@@ -102,7 +127,16 @@ const ClassroomPage = () => {
 
             <Modal open={openModal} onClose={() => setOpenModal(false)} title="Add Classroom">
                 <form className="space-y-3" onSubmit={submitClassroom}>
-                    <input className="w-full rounded-xl border px-3 py-2" placeholder="Classroom Number" value={form.roomNumber} onChange={(e) => setForm((prev) => ({ ...prev, roomNumber: e.target.value }))} required />
+                    <input
+                        className="w-full rounded-xl border px-3 py-2"
+                        placeholder="Classroom Number (e.g. N-201)"
+                        value={form.roomNumber}
+                        onChange={(e) => {
+                            setFormError('');
+                            setForm((prev) => ({ ...prev, roomNumber: e.target.value }));
+                        }}
+                        required
+                    />
                     <input className="w-full rounded-xl border px-3 py-2" placeholder="Block" value={form.building} onChange={(e) => setForm((prev) => ({ ...prev, building: e.target.value }))} required />
                     <input className="w-full rounded-xl border px-3 py-2" type="number" placeholder="Capacity" value={form.capacity} onChange={(e) => setForm((prev) => ({ ...prev, capacity: e.target.value }))} required />
                     <select className="w-full rounded-xl border px-3 py-2" value={form.type} onChange={(e) => setForm((prev) => ({ ...prev, type: e.target.value }))}>
@@ -110,6 +144,7 @@ const ClassroomPage = () => {
                         <option value="lab">Lab</option>
                         <option value="hall">Hall</option>
                     </select>
+                    {formError ? <p className="text-sm font-medium text-rose-600">{formError}</p> : null}
                     <button className="w-full rounded-xl bg-brand-600 px-4 py-2 font-semibold text-white" type="submit">
                         Save Classroom
                     </button>
