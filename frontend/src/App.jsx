@@ -16,7 +16,11 @@ import NotFoundPage from './pages/NotFoundPage';
 import { useAuth } from './context/AuthContext';
 
 const ProtectedRoute = ({ children, roles = [] }) => {
-  const { user } = useAuth();
+  const { user, loading } = useAuth();
+
+  if (loading) {
+    return null;
+  }
 
   if (!user) {
     return <Navigate to="/login" replace />;
@@ -30,7 +34,7 @@ const ProtectedRoute = ({ children, roles = [] }) => {
 };
 
 function App() {
-  const { user } = useAuth();
+  const { user, loading } = useAuth();
 
   return (
     <Routes>
@@ -41,7 +45,11 @@ function App() {
 
       <Route
         path="/"
-        element={<Navigate to={user?.role === 'admin' ? '/admin' : user ? '/timetable' : '/login'} replace />}
+        element={
+          loading ? null : (
+            <Navigate to={user?.role === 'admin' ? '/admin' : user ? '/timetable' : '/login'} replace />
+          )
+        }
       />
 
       <Route
